@@ -1,0 +1,70 @@
+:root {
+  --color: rgb(70, 89, 227);
+}
+.question-container {
+  margin: 60px auto;
+  width: 80%;
+  min-width: 400px;
+}
+.progress-container {
+  margin-bottom: 28px;
+}
+.progress-label {
+  color: var(--color);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.progress-title {
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin: 10px 0px;
+}
+.description-caption {
+  font-size: 3rem;
+  color: var(--color);
+  font-weight: bold;
+}
+.description-content {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.question-card {
+  width: 100%;
+  font-size: 1.4rem;
+  border: 2px solid black;
+  background-color: white;
+  padding: 12px 10px;
+  border-radius: 5px;
+  margin: 8px 0px;
+}
+.question-card.question-card-selected {
+  border: 2px solid var(--color);
+}
+.question-card span {
+  display: inline-block;
+  margin-left: 10px;
+}
+.btn-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+.btn-toolbar .btn {
+  font-size: 24px;
+  padding: 16px 40px;
+}
+.btn-toolbar .btn:disabled {
+  background-color: silver;
+}
+
+.btn.btn-back {
+  color: var(--color);
+}
+.theme-color {
+  color: var(--color);
+}
+.ant-select-selector,
+.ant-select-selection-item {
+  font-size: 24px !important;
+}

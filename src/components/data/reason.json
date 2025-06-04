@@ -1,0 +1,8 @@
+[
+  { "label": "Delay", "value": "delay" },
+  { "label": "Cancellation", "value": "cancelled" },
+  { "label": "Denied boarding", "value": "denied" },
+  { "label": "Missed connection flight", "value": "missed" },
+  { "label": "I myself decided not to go", "value": "not_go" },
+  { "label": "Moved to an earlier departure time", "value": "moved" }
+]

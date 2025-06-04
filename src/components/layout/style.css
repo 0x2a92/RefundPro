@@ -1,0 +1,232 @@
+:root {
+  --controls-box-shadow: rgb(47, 59, 228);
+  --btn-color: #36cfb1;
+  font-size: 16px;
+}
+
+#root {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.landing {
+  overflow: auto;
+  background: linear-gradient(
+      135deg,
+      var(--controls-box-shadow),
+      rgb(98, 190, 190)
+    )
+    no-repeat center/cover;
+  color: white;
+  opacity: 1;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.caption {
+  font-size: 3.6rem;
+}
+
+.sub-caption > .ant-col {
+  margin: 12px;
+  margin-left: 0px;
+  font-size: 2.2rem;
+}
+.sub-caption > .ant-col > .anticon {
+  color: var(--btn-color);
+}
+.controls {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 30px var(--controls-box-shadow);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 36px;
+  text-align: center;
+  padding: 40px;
+  margin: 20% 84px 0px 49px;
+  overflow: hidden;
+}
+.sub-description {
+  margin-left: 15px;
+}
+.controls > h1 {
+  color: black;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.controls button.btn {
+  width: 100%;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+}
+.controls button.btn.btn-primary {
+  color: white;
+  background-color: var(--btn-color);
+}
+.controls button.btn-outline {
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  background-color: white;
+}
+
+.controls > * {
+  text-align: center;
+  margin: 1.6rem 3.2rem;
+}
+.controls h1,
+.controls > div:last-child {
+  margin: 0px;
+}
+
+.controls div:last-child {
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.controls div:last-child span {
+  color: rgb(129, 128, 128);
+}
+.controls div:last-child a {
+  color: rgb(47, 59, 228);
+  text-decoration: underline;
+}
+
+.review {
+}
+.review-title {
+  font-size: 2.4rem;
+}
+.review-rate {
+  font-size: 1.6rem;
+}
+.review-avatar {
+}
+.review-description {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+.review-footer {
+  font-size: 1.6rem;
+}
+iframe {
+  display: none;
+}
+
+@media screen and (max-width: 1800px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    font-size: 14px;
+  }
+  .landing {
+    padding-top: 80px;
+  }
+  .controls {
+    width: 100%;
+    margin: 40px 0px;
+  }
+  .controls > h1 {
+    font-size: 3.2rem;
+  }
+  .controls button.btn {
+    font-size: 3.2rem;
+  }
+  .controls div:last-child {
+    font-size: 24px;
+    margin: 1.6rem 3.2rem;
+  }
+  .controls > * {
+    text-align: center;
+    margin: 1.2rem 2.8rem;
+  }
+  .controls button.btn {
+    padding: 12px;
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    font-size: 12px;
+  }
+  .controls {
+    padding: 36px;
+  }
+  .controls > h1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 10px;
+  }
+  .controls {
+    padding: 28px;
+  }
+  .controls div:last-child {
+    flex-direction: column;
+  }
+  .controls > * {
+    text-align: center;
+    margin: 1.2rem 2.8rem;
+  }
+  .controls button.btn {
+    padding: 8px;
+    font-size: 2.4rem;
+  }
+  .controls div:last-child {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 686px) {
+  :root {
+    font-size: 9px;
+  }
+  .controls {
+    padding: 20px;
+  }
+  .controls > h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  :root {
+    font-size: 8px;
+  }
+  .controls {
+    padding: 20px;
+  }
+  .controls > h1 {
+    font-size: 2.4rem;
+  }
+}

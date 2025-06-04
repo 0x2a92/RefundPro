@@ -1,0 +1,44 @@
+.flight-container {
+  width: 80%;
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.flight-container .ant-row {
+  margin-top: 20px;
+}
+.reason-card .ant-radio-wrapper {
+  border: 1px solid silver;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px 20px 10px 0px;
+}
+
+.circle-check {
+  margin-top: 10px;
+  display: flex;
+}
+
+.circle-check .anticon {
+  font-size: 24px;
+}
+.circle-check > span:last-child {
+  padding-left: 10px;
+  font-size: 18px;
+}
+.flight-date * {
+  font-size: 20px !important;
+}
+
+.icon-check {
+  color: rgb(70, 89, 227);
+}
+
+.btn-continue {
+  background-color: rgb(70, 89, 227);
+  color: white;
+  font-size: 20px;
+  height: 60px;
+  padding: 10px 40px;
+}

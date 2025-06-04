@@ -1,0 +1,14 @@
+.progress-bar {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.progress-thumb {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgb(70, 89, 227);
+  transition: width 0.5s ease;
+}
