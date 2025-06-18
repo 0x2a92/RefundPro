@@ -12,7 +12,7 @@ RefundPro is a demo version of a refund claim automation system similar to Refun
 ## Tech Stack
 - **Frontend:** React
 - **Backend:** Node.js / Express
-- **Database:** MySQL
+- **Database:** MongoDB
 - **Authentication:** JWT
 - **Deployment:** Docker / Vercel (Optional)
 
@@ -25,8 +25,8 @@ RefundPro is a demo version of a refund claim automation system similar to Refun
 ### Installation
 
 ```bash
-git clone https://github.com/0x2a92/refundpro-demo.git
-cd refundpro-demo
+git clone https://github.com/0x2a92/RefundPro.git
+cd RefundPro
 cp .env.example .env
 npm install
 npm start
